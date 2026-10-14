@@ -283,7 +283,7 @@ class GoBuilder:
             os.remove(self.binp)
             if os.path.exists(self.binp):
                 sublime.status_message("clean error!")
-                return Falses
+                return False
         self.lview=lview
         self.test=test;
         self.tview=tview
